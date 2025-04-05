@@ -1,2 +1,0 @@
-# ZergMonitor
-Tiny HW Monitor
