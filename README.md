@@ -1,2 +1,2 @@
 # ZergMonitor
-Tiny Hw Monitor
+Tiny HW Monitor

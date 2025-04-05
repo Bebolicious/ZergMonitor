@@ -1,0 +1,12 @@
+[package]
+name = "Zerg_Monitor"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+eframe = "0.25"
+sysinfo = "0.30"
+winapi = { version = "0.3", features = ["winuser"] }
+
+[target.x86_64-pc-windows-gnu]
+rustflags = ["-C", "target-feature=+crt-static"]
